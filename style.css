@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+html{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: coral;
+}
+
+.navbar{
+    background: white;
+    padding: 1em;
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    position: fixed;
+    z-index: 1000;
+}
+.mobile-menu {
+    cursor: pointer;
+    display: flex;
+}
+.primary-nav{
+    margin-top: 1.5em;
+    display: flex;
+    place-content: space-between;
+    justify-content: space-between;
+    float: right;
+    background-color: transparent;
+}
+.primary-nav li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.primary-nav li a.active{
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 5em 2em;
+}
+
+.header{
+    display: flex;
+    background-color: rgba(212, 40, 40, 0.927);
+}
+.headtext {
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: auto;
+    margin-bottom: 8em;
+}
+#head1{
+    font-family: 'Dancing Script';
+    font-size: 4em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 3.5em;
+}
+#head2{
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .2em;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 1.5em;
+}
+#head3{
+    border-style: solid;
+    border-radius: 7px;
+    background: white;
+    color: rgba(212, 40, 40, 0.927);
+    margin: 0;
+    max-width: 11em;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    display: inline;
+}
+a#reservation_link:hover{
+    color: royalblue;
+}
+a#reservation_link:visited{
+    text-decoration: rgba(212, 40, 40, 0.927);
+    text-decoration-color: rgba(212, 40, 40, 0.927);
+}
+.pic {
+    position: relative;
+    width: 50%;
+    margin-top: 7em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.pic-rest{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#int_pic{
+    position: relative;
+    width: 620px;
+    height: auto;
+    float: left;
+}
+
+/* part-2 */
+
+.about{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.about .head{
+    font-weight: 1500;
+}
+p.about{
+    font-size: 0.3em;
+}
+
+.abms{
+    display: flex;
+}
+#abm1, #abm2, #abm3{
+    position: relative;
+    margin-top: 2em;
+    width: 26%;
+    height: auto;
+}
+#abm1{
+    padding-right: 0.5em;
+}
+#abm2{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 30%;
+}
+#abm3{
+    padding-left: 0.5em;
+}
+
+.about{
+    display: flex;
+}
+
+#about_bg{
+    width: 51%;
+    height: auto;
+    margin-top: 5em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.about_left{
+    width: 50%;
+}
+
+.about_content1, .about_content2{
+    text-align: justify;
+    margin-right: 2em;
+}
+
+
+/* red nice heading */
+
+.head #head-about{
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 2px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.dash p {
+    letter-spacing: -2px;
+    color: #fb5849;
+}
+.dash span {
+    letter-spacing: 2px;
+    margin: 0 5px;
+    color:#fb5849;
+}
+
+/* Menu */
+
+.dash-menu {
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 2px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.dash-menu p {
+    letter-spacing: -2px;
+    color: #fb5849;
+}
+.dash-menu span {
+    letter-spacing: 2px;
+    margin: 0 5px;
+    color: #fb5849;
+}
+
+.menu{
+    text-align: center;
+}
+
+.each-menu{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-image: url("Images/dishes3.jpg");
+    background-size: 100%;
+}
+
+/* .each-menu h6{
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+} */
+
+
+/* PART 3 */
+
+.dash-chefs #head-about{
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 2px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.dash-chefs p {
+    letter-spacing: -2px;
+    color: #fb5849;
+}
+.dash-chefs span {
+    letter-spacing: 2px;
+    margin: 0 5px;
+    color: #fb5849;
+}
+
+.chefs h1{
+    font-weight: 2000;
+    padding-bottom: 1em;
+}
+
+.chefs{
+    display: block;
+    padding-top: 100px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.chefs .container{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.chefs .container ul{
+    display: flex;
+}
+.chefs .container ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chefs img{
+    width: 300px;
+    height: auto;
+}
+
+.chefs .container #chef2, #chef1, #chef3{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.each-chef li{
+    border-style: solid;
+    border-color: #fb5849;
+    border-width: 1.5px;
+}
+
+.chef-down h4{
+    padding: 0;
+    margin: 0;
+    padding: 15px 0 3px 0;
+}
+.chef-down span{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.chef-down{
+    margin-bottom: 18px;
+}
+
+
+/* PART 4 - footer*/
+
+footer{
+    margin-top: 60px;
+    padding: 50px 0px;
+    background-color: #fb5849;
+    display: block;
+    width: 100%;
+}
+
+footer .row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 10%;
+}
+
+.social-icons{
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.social-icons img{
+    width: 40px;
+    height: auto;
+    color: white;
+    display: flex;
+}
+.social-icons li, a{
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.social-icons .facebook img{
+    position: relative;
+    width: 43px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.footer-logo img{
+    width: 150px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    vertical-align: middle;
+    align-items: center;
+}
+.footer-logo a{
+    text-align: center;
+    justify-content: center;
+
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 170%;
+    padding-right: 170%;
+    height: auto;
+}
+.footer-logo a:hover{
+    color: black;
+}
+
+.footer-left{
+    text-align: right;
+}
+.footer-left a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    justify-items: right;
+    justify-content: right;
+    align-items: center;
+
+    padding-left: 500px;
+    padding-right: 0;
+    vertical-align: middle;
+}
+.footer-left a:hover{
+    color: black;
+}
+
+#privacy-policy{
+    padding-bottom: 5px;
+}
+#copyright{
+    padding-top: 5px;
+}
+
+footer a:hover{
+    color: black;
+}
+
+
+/* Residual Stuffs */
+
+/* Back to top button */
+
+#myBtn {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #fd4838;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px 15px 15px 15px;
+    margin: 0;
+    margin-left: 20px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+.chef-down img{
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
+}
+.chef-down #fb{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Carousal*/
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* <-- Media Queries --> */
+/* <-- Media Queries --> */
+/* <-- Media Queries --> */
+
+@media only screen and (max-width: 650px) {
+    .chefs {
+        display: block;
+    }
+
+    .footer-logo img {
+        width: 50%;
+        height: auto;
+    }
+    .footer-left a {
+        padding-left: 250px;
+        padding-right: 30px;
+        text-align: right;
+    }
+
+    .chefs .container ul {
+        display: block;
+    }
+
+    #head3 {
+        display: block;
+    }
+
+    .about {
+        display: block;
+    }
+    #about_bg {
+        margin-top: 1em;
+        width: 75%;
+        z-index: -99;
+    }
+    .about_left {
+        width: 100%;
+    }
+    .menu {
+        margin-top: 12em;
+    }
+}
