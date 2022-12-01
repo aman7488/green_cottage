@@ -49,3 +49,53 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
+// Week's Special functions
+
+function weekSpecialBreakfast(){
+  var w = document.documentElement.clientWidth || window.innerWidth;
+  if (w < 750){
+    document.getElementById("visible-breakfast").style.display = "block";
+  }
+  else{
+    document.getElementById("visible-breakfast").style.display = "flex";
+  }
+  document.getElementById("visible-lunch").style.display = "none";
+  document.getElementById("visible-dinner").style.display = "none";
+
+  document.getElementById("only-bf1").style.color = "#fb5849";
+  document.getElementById("only-bf2").style.color = "black";
+  document.getElementById("only-bf3").style.color = "black";
+}
+
+function weekSpecialLunch(){
+  var w = document.documentElement.clientWidth || window.innerWidth;
+  if (w < 750){
+    document.getElementById("visible-lunch").style.display = "block";
+  }
+  else{
+    document.getElementById("visible-lunch").style.display = "flex";
+  }
+  document.getElementById("visible-breakfast").style.display = "none";
+  document.getElementById("visible-dinner").style.display = "none";
+
+  document.getElementById("only-bf1").style.color = "black";
+  document.getElementById("only-bf2").style.color = "#fb5849";
+  document.getElementById("only-bf3").style.color = "black";
+}
+
+function weekSpecialDinner(){
+  var w = document.documentElement.clientWidth || window.innerWidth;
+  if (w < 750){
+    document.getElementById("visible-dinner").style.display = "block";
+  }
+  else{
+    document.getElementById("visible-dinner").style.display = "flex";
+  }
+  document.getElementById("visible-breakfast").style.display = "none";
+  document.getElementById("visible-lunch").style.display = "none";
+
+  document.getElementById("only-bf1").style.color = "black";
+  document.getElementById("only-bf2").style.color = "black";
+  document.getElementById("only-bf3").style.color = "#fb5849";
+}
