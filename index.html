@@ -22,7 +22,7 @@
             <ul class="primary-nav">
                 <li id="i1"><a href="#jump-to-home">Home</a></li>
                 <li id="i2"><a href="#jump-to-about">About</a></li>
-                <li id="i3"><a href="#jump-to-chefs">Menu</a></li>
+                <li id="i3"><a href="#jump-to-menu">Menu</a></li>
                 <li id="i4"><a href="#jump-to-chefs">Chefs</a></li>
                 <li id="i5"><a href="#jump-to-footer">Contact Us</a></li>
             </ul>
@@ -119,7 +119,7 @@
         </div>
 
         <div class="menu-item-carousel">
-            <ul class="each-menu">
+            <!-- <ul class="each-menu">
                 <h6>$22</h6>
                 <div class="info">
                     <h1 class="title">Choco CupCake</h1>
@@ -127,7 +127,58 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolor?
                     </p>
                 </div>
-            </ul>
+            </ul> -->
+            <div class="menu-p1">
+            <div class = "menu-item1">
+                <div class="menu-price">
+                    <h3>$10</h3>
+                </div>
+                <div class="menu-info">
+                    <h1 class = "title">Food Item1</h1>
+                    <p class="desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, temporibus?
+                    </p>
+                </div>
+            </div>
+
+            <div class="menu-item2" id="menu-card">
+                <div class="menu-price">
+                    <h3>$20</h3>
+                </div>
+                <div class="menu-info">
+                    <h1 class="title">Food Item2</h1>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dignissimos.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="menu-p2">
+            <div class="menu-item3" id="menu-card">
+                <div class="menu-price">
+                    <h3>$15</h3>
+                </div>
+                <div class="menu-info">
+                    <h1 class="title">Food Item3</h1>
+                    <p class="desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, omnis!
+                    </p>
+                </div>
+            </div>
+
+            <div class="menu-item4" id="menu-card">
+                <div class="menu-price">
+                    <h3>$10</h3>
+                </div>
+                <div class="menu-info">
+                    <h1 class="title">Food Item4</h1>
+                    <p class="desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nostrum.
+                    </p>
+                </div>
+            </div>
+            </div>
         </div>
     </section>
 
@@ -189,7 +240,280 @@
                 </li>
             </ul>
         </div>
-    </section>    
+    </section>  
+    
+    
+    <section class="week-special">
+        <div class="menu-head">
+            <div class="heading">
+                <div class="dash-menu">
+                    <p>&#x2015;&#x2015;&#x2015; <span id="head-about"> Week Special </span> &#x2015;&#x2015;&#x2015;</p>
+                </div>
+                <h1>This Week's Special Offers</h1>
+            </div>
+        </div>
+
+        <div class="week-icons">
+            <ul class="week-food-time">
+                <div class="icons-time">
+                <li id="weeksBreakfast">
+                    <div class="logontext" onclick="weekSpecialBreakfast()">
+                        <img src="Images/breakfast.png" alt="Breakfast">
+                        <h3 id="only-bf1">Breakfast</h3>
+                    </div>
+                </li>
+                <li id="weeksLunch">
+                    <div class="logontext" onclick="weekSpecialLunch()">
+                        <img src="Images/lunch.png" alt="Lunch">
+                        <h3 id="only-bf2">Lunch</h3>
+                    </div>
+                </li>
+                <li id="weeksDinner">
+                    <div class="logontext" onclick="weekSpecialDinner()">
+                        <img src="Images/dinner.png" alt="Dinner">
+                        <h3 id="only-bf3">Dinner</h3>
+                    </div>
+                </li>
+                </div>
+            </ul>
+        </div>
+<!-- Breakfast -->
+        <div class="special-cat" id="visible-breakfast">
+
+        <div class="left-special">
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item1.jpg" alt="Pic">
+                            <p><b>Breakfast Type1</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="special-price">
+                            <h3>$10</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item2c.jpg" alt="Pic">
+                        <p><b>Breakfast Type2</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="special-price">
+                            <h3>$15</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item1.jpg" alt="Pic">
+                        <p><b>Breakfast Type3</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="special-price">
+                            <h3>$10</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-special">
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item2c.jpg" alt="Pic">
+                        <p><b>Breakfast Type4</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="special-price">
+                            <h3>$15</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item1.jpg" alt="Pic">
+                        <p><b>Breakfast Type5</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="special-price">
+                            <h3>$10</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item2c.jpg" alt="Pic">
+                        <p><b>Breakfast Type6</b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="special-price">
+                            <h3>$15</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+<!-- Lunch -->
+        <div class="special-cat-lunch" id="visible-lunch">
+        
+            <div class="left-special">
+                <div class="time-content">
+                    <div id="time-Breakfast">
+                        <div class="bf-item1">
+                            <img src="Images/Menu/item3.jpg" alt="Pic">
+                            <p><b>Lunch Type1</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="special-price">
+                                <h3>$12</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-content">
+                    <div id="time-Breakfast">
+                        <div class="bf-item1">
+                            <img src="Images/Menu/item4.jpg" alt="Pic">
+                            <p><b>Lunch Type2</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="special-price">
+                                <h3>$18</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-content">
+                    <div id="time-Breakfast">
+                        <div class="bf-item1">
+                            <img src="Images/Menu/item3.jpg" alt="Pic">
+                            <p><b>Lunch Type3</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="special-price">
+                                <h3>$12</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="right-special">
+                <div class="time-content">
+                    <div id="time-Breakfast">
+                        <div class="bf-item1">
+                            <img src="Images/Menu/item4.jpg" alt="Pic">
+                            <p><b>Lunch Type4</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="special-price">
+                                <h3>$18</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-content">
+                    <div id="time-Breakfast">
+                        <div class="bf-item1">
+                            <img src="Images/Menu/item3.jpg" alt="Pic">
+                            <p><b>Lunch Type5</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="special-price">
+                                <h3>$12</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-content">
+                    <div id="time-Breakfast">
+                        <div class="bf-item1">
+                            <img src="Images/Menu/item4.jpg" alt="Pic">
+                            <p><b>Lunch Type6</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="special-price">
+                                <h3>$18</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    <!-- Dinner -->
+    <div class="special-cat-dinner" id="visible-dinner">
+    
+        <div class="left-special">
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item5.jpg" alt="Pic">
+                        <p><b>Dinner Type1</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="special-price">
+                            <h3>$20</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item6.jpg" alt="Pic">
+                        <p><b>Dinner Type2</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="special-price">
+                            <h3>$25</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item5.jpg" alt="Pic">
+                        <p><b>Dinner Type3</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="special-price">
+                            <h3>$20</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="right-special">
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item6.jpg" alt="Pic">
+                        <p><b>Dinner Type4</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="special-price">
+                            <h3>$25</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item5.jpg" alt="Pic">
+                        <p><b>Dinner Type5</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="special-price">
+                            <h3>$20</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-content">
+                <div id="time-Breakfast">
+                    <div class="bf-item1">
+                        <img src="Images/Menu/item6.jpg" alt="Pic">
+                        <p><b>Dinner Type6</b><br>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="special-price">
+                            <h3>$25</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    </section>
+
 
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
