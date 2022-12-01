@@ -261,16 +261,16 @@ p.about{
     text-align: left;
 }
 .menu-item1{
-    background-image: url("Images/Menu/item1.jpg");
+    background-image: url("./Images/Menu/item1.jpg");
 }
 .menu-item2{
-    background-image: url("Images/Menu/item2.jpg");
+    background-image: url("./Images/Menu/item2.jpg");
 }
 .menu-item3{
-    background-image: url("Images/Menu/item3.jpg");
+    background-image: url("./Images/Menu/item3.jpg");
 }
 .menu-item4{
-    background-image: url("Images/Menu/item4.jpg");
+    background-image: url("./Images/Menu/item4.jpg");
 }
 .menu-price h3{
     width: 50px;
